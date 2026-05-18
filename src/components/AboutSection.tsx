@@ -58,8 +58,8 @@ const AboutSection = () => {
               </div>
 
               <div className="flex gap-4 p-6 bg-secondary rounded-xl border border-border">
-                <div className="flex-shrink-0 w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
-                  <Eye className="h-6 w-6 text-primary" />
+                <div className="flex-shrink-0 w-12 h-12 bg-gold/10 rounded-lg flex items-center justify-center">
+                  <Eye className="h-6 w-6 text-gold" />
                 </div>
                 <div>
                   <h3 className="font-display font-bold text-lg text-foreground mb-2">
