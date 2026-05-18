@@ -5,6 +5,7 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { MapPin, Phone, Mail, Send } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
+import logo from '@/assets/logo.png';
 
 const ContactSection = () => {
   const { t, dir } = useLanguage();
@@ -102,16 +103,10 @@ const ContactSection = () => {
           {/* Contact Info */}
           <div className={`space-y-8 ${dir === 'rtl' ? 'lg:order-1' : ''}`}>
             <div className="bg-primary rounded-2xl p-8">
-              <div className="flex items-center gap-2 mb-6">
-                <div className="w-10 h-10 bg-gold rounded-lg flex items-center justify-center">
-                  <span className="text-primary font-display font-bold text-xl">D</span>
-                </div>
-                <div>
-                  <span className="font-display font-bold text-lg text-primary-foreground">
-                    Deal Craft Group
-                  </span>
-                </div>
+              <div className="flex items-center mb-6">
+                <img src={logo} alt="Deal Craft Group" className="h-14 w-auto object-contain" />
               </div>
+              <div className="h-px bg-gold/30 mb-6" />
 
               <div className="space-y-6">
                 {contactInfo.map((info, index) => (
