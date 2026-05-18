@@ -5,6 +5,7 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { MapPin, Phone, Mail, Send } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
+import logo from '@/assets/logo.png';
 
 const ContactSection = () => {
   const { t, dir } = useLanguage();
