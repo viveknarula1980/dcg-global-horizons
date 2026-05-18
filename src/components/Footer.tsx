@@ -10,18 +10,8 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           {/* Logo */}
-          <div className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-gold rounded-lg flex items-center justify-center">
-              <span className="text-primary font-display font-bold text-xl">D</span>
-            </div>
-            <div className="flex flex-col">
-              <span className="font-display font-bold text-lg text-primary-foreground leading-tight">
-                Deal Craft Group
-              </span>
-              <span className="text-xs text-gold font-medium">
-                {t.footer.tagline}
-              </span>
-            </div>
+          <div className="flex items-center">
+            <img src={logo} alt="Deal Craft Group" className="h-14 md:h-16 w-auto object-contain" />
           </div>
 
           {/* Website */}
