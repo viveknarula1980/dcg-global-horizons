@@ -18,17 +18,17 @@
     --popover: 0 0% 100%;
     --popover-foreground: 220 40% 13%;
 
-    /* Deep Navy Primary */
-    --primary: 220 60% 15%;
-    --primary-foreground: 45 100% 96%;
+    /* Deep Black Primary (from logo) */
+    --primary: 0 0% 6%;
+    --primary-foreground: 42 45% 65%;
 
-    /* Light Navy Secondary */
-    --secondary: 220 25% 94%;
-    --secondary-foreground: 220 60% 15%;
+    /* Soft Secondary */
+    --secondary: 40 15% 94%;
+    --secondary-foreground: 0 0% 8%;
 
-    /* Gold Accent */
-    --accent: 42 85% 55%;
-    --accent-foreground: 220 60% 10%;
+    /* Antique Gold Accent (from logo) */
+    --accent: 40 45% 52%;
+    --accent-foreground: 0 0% 6%;
 
     --muted: 220 20% 92%;
     --muted-foreground: 220 15% 45%;
