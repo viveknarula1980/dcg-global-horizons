@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import logo from '@/assets/logo.png';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Language, getLanguageName } from '@/lib/i18n';
 import { Button } from '@/components/ui/button';
