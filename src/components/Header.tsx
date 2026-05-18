@@ -30,19 +30,9 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <div className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-display font-bold text-xl">D</span>
-            </div>
-            <div className="flex flex-col">
-              <span className="font-display font-bold text-lg text-foreground leading-tight">
-                Deal Craft
-              </span>
-              <span className="text-xs text-gold font-semibold tracking-wider uppercase">
-                Group
-              </span>
-            </div>
-          </div>
+          <a href="#hero" onClick={(e) => { e.preventDefault(); scrollToSection('hero'); }} className="flex items-center">
+            <img src={logo} alt="Deal Craft Group" className="h-12 md:h-14 w-auto object-contain" />
+          </a>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
