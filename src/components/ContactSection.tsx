@@ -40,6 +40,7 @@ const ContactSection = () => {
       icon: Phone,
       label: t.contact.phone,
       value: '+4915567339156',
+      dir: 'ltr' as const,
     },
     {
       icon: Mail,
@@ -118,7 +119,7 @@ const ContactSection = () => {
                       <p className="text-primary-foreground/70 text-sm mb-1">
                         {info.label}
                       </p>
-                      <p className="text-primary-foreground font-medium">
+                      <p className="text-primary-foreground font-medium" dir={info.dir}>
                         {info.value}
                       </p>
                     </div>
