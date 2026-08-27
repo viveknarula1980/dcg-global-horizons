@@ -39,7 +39,7 @@ const ContactSection = () => {
     {
       icon: Phone,
       label: t.contact.phone,
-      value: '+49 15 75 35 45 144',
+      value: '+4915567339156',
     },
     {
       icon: Mail,
