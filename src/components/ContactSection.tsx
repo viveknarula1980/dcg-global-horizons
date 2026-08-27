@@ -40,6 +40,7 @@ const ContactSection = () => {
       icon: Phone,
       label: t.contact.phone,
       value: '+4915567339156',
+      dir: 'ltr' as const,
     },
     {
       icon: Mail,
